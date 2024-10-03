@@ -8,7 +8,6 @@ h1 {
     text-align: center;
     }
     
- .projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
 .project {
 width: 30%;
 margin: 10px;
@@ -16,3 +15,12 @@ padding: 20px 10px;
 background: rgb(137, 104, 39); /* pick a color */
 border-radius: 25%;
 }
+
+.project img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(91, 71, 4); /* choose a color */
+    display: block;
+    margin: auto;
+    }
